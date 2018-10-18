@@ -1,0 +1,33 @@
+.searchbox{background: #0E1D29;width: 99%;padding: 0px 0px  10px 1%;}
+.searchbox li{line-height: 40px; font-size: 14px;}
+.searchbox li:hover{background: #0E1D29;}
+.searchbox li span{color:#F9C76D;display: inline-block;letter-spacing: 1px;  font-size: 14px; }
+.searchbox li  input[type=text]{   font-size: 4vw;width: 70%; line-height: 20px; padding: 5px; border: 0 none; color: #FBEDC5; background-color: #5A5A5A; border-radius: 3px;}
+.searchbox li  input[type=button]{ font-size: 14px;width: 85px;height: 30px;line-height: 30px;background: #2B6B99;color:#fff;border: none;letter-spacing: 1px;margin-left: 47px;margin-top:15px;cursor:pointer;border-radius: 3px;}
+
+
+.list_box{position:relative;height: 62vh}
+.list_box .list{background: #303F48;color: #FEEEC7;}
+.list_box .list li{height:35px; line-height: 35px; margin-bottom: 1px; background-color: #0E1D29;padding: 0;width: 100%;font-size: 14px;}
+.list_box .list li:hover{cursor:pointer;}
+.list_box .list li a{color:#F9C76D;}
+.list_box .list li a:hover{opacity:0.9;}
+.list_box .title{  height: 34px;  line-height: 34px;  background-color: #00090E; margin-bottom: 0px;color: #FEEEC7;font-size: 14px;}
+.list_box .title span{display: inline-block;width:70%;text-overflow:ellipsis;overflow:hidden;text-align: left;}
+.list_box .title span:first-child{width:30%;text-indent: 12px;text-align: left;}
+
+.list li span{display: inline-block;width:70%;text-overflow:ellipsis;overflow:hidden;}
+.list li span:first-child{width:30%;text-indent: 12px;text-align: left;}
+.agency .detail{background: none;width: 98%;padding-left: 2%;color:#FEEEC7;}
+.agency .detail ul { background: none; }
+.agency .detail li{line-height: 35px;width:100%;}
+.agency .detail label[name=tags]{width:85%;display:inline-block;}
+.agency  .btn_box{margin-top:20px;}
+.agency  .btn_box a:first-child{margin-right: 10px;}
+
+.list {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+

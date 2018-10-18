@@ -1,0 +1,25 @@
+.ListContainer{
+  height: 83vh;
+  position: relative;
+}
+.ListContainer li:nth-child(2n){
+  background: #111C23;
+}
+.ListContainer li{
+  background: #1F292F;
+  color: #fff;
+  padding: 13px 25px;
+  @extend .tran;
+}
+.ListContainer li:active{
+  background: #00B4B0;
+}
+.ListContainer li span{
+  display: inline-block;
+}
+.ListContainer li span:nth-child(1){
+  width: 35vw;
+}
+.ListContainer li span:nth-child(2){
+  width: 35vw;
+}

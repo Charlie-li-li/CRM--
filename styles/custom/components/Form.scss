@@ -1,0 +1,41 @@
+.addItem{
+  padding: 0 10vw;
+  margin-top: 50px;
+}
+.addItem .formEml{
+  margin-bottom: 10px;
+}
+.addItem div.btns{
+  text-align: center;
+}
+.addItem label{
+  color: #fff;
+  width: 15vw;
+  display: inline-block;
+}
+.addItem input{
+  width: 65vw;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  border: none;
+  outline: none;
+  text-indent: 10px;
+  font-size: 4vw;
+  border-radius: 3px;
+}
+.addItem button{
+  border: none;
+  font-size: 5vw;
+  margin: 15px;
+  padding: 10px;
+  outline: none;
+  background: #00B4B0;
+  color: #fff;
+  padding: 3vw 12vw;
+  @extend .tran;
+}
+.addItem button:active{
+  transform: scale(.9);
+  -webkit-transform: scale(.9);
+}

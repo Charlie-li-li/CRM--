@@ -1,0 +1,12 @@
+
+> sound-redux@1.0.0 lint D:\sxl\test\reDemo
+> eslint scripts
+
+
+D:\sxl\test\reDemo\scripts\main.js
+  20:20  warning  Unexpected console statement  no-console
+  21:3   warning  Unexpected console statement  no-console
+  24:7   warning  Unexpected console statement  no-console
+
+✖ 3 problems (0 errors, 3 warnings)
+
